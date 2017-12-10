@@ -14,7 +14,7 @@
 
 $(document).ready(function(){
   var s_toSearch = document.getElementById("summoner").value;
-  var api_key = "key.dat"
+  var api_key = "RGAPI-52456769-f3a4-4805-b0fe-fb43ecf0d68a"
   var URL = 'https://euw1.api.riotgames.com/lol/summoner/v3/summoners/by-name/' + s_toSearch + '?api_key=' + api_key;
 
 $("#summonerSearch").click(function(){
