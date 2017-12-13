@@ -5,7 +5,7 @@
 //Authors James Maguire x16114477, Armstrong Bekombo x16114451 and Aidan O'Byrne x16519036
 
 //Code Reference http://Stackoverflow.com for a number of things. Some were used most were discarded.
-// However, Line 55 was pulled from an answer to a question here. The rest of the code is my own!
+// However, Line 59 was pulled from an answer to a question here. The rest of the code is our own!
 
 
 
