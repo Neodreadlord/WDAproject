@@ -1,5 +1,5 @@
 //APIs found @ https://developer.riotgames.com/api-methods/
-//RGAPI-81006b95-13c5-4c76-949e-c14c6087dfcb - current API KEY (expires 10th Dec @ 7:42 am Pacific Time - new one to be requested then)
+//RGAPI-e0098fb4-d8c2-4829-bfd9-117576e41841 - current API KEY (expires 10th Dec @ 7:42 am Pacific Time - new one to be requested then)
 //To query any api it's https://euw1.api.riotgames.com/lol/(api name here) + (input required summoner name or ID etc) + "?api_key" + (api_key variable);
 
 //Authors James Maguire x16114477, Armstrong Bekombo x16114451 and Aidan O'Byrne x16519036
@@ -14,7 +14,7 @@
 
 $(document).ready(function(){
   var s_toSearch = document.getElementById("summoner").value;
-  var api_key = "RGAPI-52456769-f3a4-4805-b0fe-fb43ecf0d68a"
+  var api_key = "RGAPI-e0098fb4-d8c2-4829-bfd9-117576e41841"
   var URL = 'https://euw1.api.riotgames.com/lol/summoner/v3/summoners/by-name/' + s_toSearch + '?api_key=' + api_key;
 
 $("#summonerSearch").click(function(){
